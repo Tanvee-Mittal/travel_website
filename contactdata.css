@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+body{
+    background-image: url(images/contact.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+
+}
+
+.contact{
+    border-color: white;
+  
+    width: 100%;
+    display: inline-block;
+    margin-left: 80em;
+    margin-top: 11em;
+}
+form{
+    
+    width: 400px;
+   
+    color:white;
+    position: relative;
+    
+  }
+.contact input{
+    background-color: transparent;
+    color: blanchedalmond;
+    font-weight: bolder;
+}
+.contact textarea{
+    background-color: transparent;
+    overflow: hidden;
+    color: blanchedalmond;
+}
+
+input{
+    width: 400px;  
+    border: 2px;
+    border-radius: 10px;
+    outline: black; 
+    font-family: 'Sniglet', cursive;
+    text-transform: uppercase;
+    font-size: 20px;   
+    align-self: center;
+    overflow: hidden; /* Hide scrollbars */
+  
+  }
+  textarea{
+    width: 400px;  
+    border: 2px;
+    border-radius: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 30px;
+    
+    overflow: hidden; /* Hide scrollbars */ 
+  }
+
+  input[type="submit"]{
+    text-decoration-color: black;
+    display: block;
+    margin-top:0px;
+    font-family: 'Sniglet', cursive;
+  }
+
+  input[type="submit"]:hover{
+    background-color: black;
+    transform: scale(0.9);
+  }

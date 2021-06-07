@@ -1,0 +1,54 @@
+.image{
+    display:inline-flex;
+
+}
+.image img{
+    height: 590px;
+    width: 1330px;
+
+}
+
+.heading h1{
+    font-size: 50px;
+    margin-left: 12cm;
+    color: rgb(14, 16, 17);
+    
+}
+.heading h2{
+    font-size: 30px;
+    color: rgb(236, 77, 77);
+}
+.heading h3{
+    font-size: 25px;
+    margin-left: 12cm;
+    color: rgb(235, 98, 19);
+ 
+
+}
+.india img{
+    height: 600px;
+    width: 1330px;
+    
+
+}
+ .explain1{
+     font-size: 20px;
+     font-family: sans-serif;
+
+}
+.list1 li{
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.explain2{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.list1 img{
+    height: 500px;
+    width: 1260px;
+}
+.explain3{
+    font-size: 18px;
+    font-family: sans-serif;
+}

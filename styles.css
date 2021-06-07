@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body{
+  background-color: white;
+}
+
+.main-page{
+    /*background-color:#30475e;*/
+    background-image: url(images/blue3.jpg); 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 100% 100%;
+    
+
+    /*display: flex;
+    min-height: 50vh;
+    flex-direction: column;*/
+  
+}
+
+.nav-bar li {
+    display: inline;
+    width: 8%;
+    height: 10%;
+    /*margin-right: 0%;
+    margin-left: 0%;*/
+    
+  }
+  .nav-bar li {
+    float: left;
+    width: fit-content;
+    padding: 0px;
+  }
+  
+ .nav-bar a {
+    display: inline-flex;
+    padding: 50px;
+    /*background-color: #222831;*/
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 45em;
+    font-family:  'Dancing Script', Georgia, Times, serif;
+    
+  }
+
+
+.nav-bar a:hover{
+  /*background-color:#14274e;*/
+  box-shadow: 0 5px 14px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  opacity: 89;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+/*.signup{
+  text-align: end;
+}
+
+.signup a{
+  display: inline-block;
+  text-align: end;
+  border-style: none;
+  border-radius: 15px 15px 15px 15px;
+  font-family:'Dancing Script', Georgia, Times, serif;
+  font-size: 1.2em;
+  margin-left:40em;
+  font-weight: bold;
+  padding: 0.9em;
+  margin-top: 1.9em;
+  
+}
+
+.signup a:hover{
+  transform: scale(0.8)
+}
+
+.started{
+  text-align: center;
+  font-size: 1em;
+}*/
+.started button{
+  display: inline-flex;
+  margin-top: 3.5em;
+  border-radius:10px 10px 10px 10px  ;
+  margin-left: 70em;
+  padding: 13px 40px;
+  text-decoration: none;
+  background-color:#ff8303;
+  border:none;
+  color: white;
+  font-weight: bold;
+
+}
+
+.started button:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.wrapper {
+  text-align: center;
+}
+
+.wrapper button {
+  position: absolute;
+  margin-top: 30em;
+  border-radius:20px 20px 20px 20px  ;
+  margin-left: 55em;
+  padding: 10px 85px;
+  text-decoration: none;
+  background-color: #ff9642;
+  border:none;
+  color: white;
+}
+
+.wrapper button:hover{
+  transform: scale(1.2);
+}
+
+
+
+.top-cards-images  li{
+  display: inline-flex;
+ padding: 2px;
+  float: right;
+  margin-top: 43em;
+  margin-left: 1em;
+  
+
+}
+.top-cards-images img{
+  display: inline-flex;
+  width: 250px;
+  height: 300px;
+  margin:2px;
+  border-radius: 10px 10px 10px 10px;
+
+}
+/************************ WHO WE ARE SECTION  ********************/
+.who-we-are{
+  display: inline;
+  height: 60%;
+  width: 100%;
+  margin: 80px;
+  padding: 50px;
+}
+.who-we-are video{
+  height: 600px;
+  width: 1800px;
+} 
+
+/***************************View packages section*****************/
+.view-packages {
+  background-color: white;
+}
+.view-packages h1{
+  color: black;
+  font-size: 3em;
+  margin-left: 2.3em;
+}
+.packages-image li{
+  display: inline-flex;
+
+}
+
+.packages-image img{
+  height: 450px;
+  width: 450px;
+  margin: 10px;
+  margin-left: 9em;
+  border-radius: 20px 20px 20px 20px;
+ 
+}
+.packages-image img:hover{
+  transform: scale(0.9);
+  background: url(images/dalhousie.jpg) no-repeat;
+}
+.packages-image a{
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+/********************************** adventure div *************************/
+.adventure img {
+  margin: 120px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px;
+
+  height: 130px;
+  width: 2000px;
+}
+.adventure-img li{
+  display: inline;
+}
+.adventure-img img{
+  margin: 20px 20px 20px 135px;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.main-img img{
+  width: 600px;
+}
+
+.adventure-img img:hover{
+  transform: scale(0.9);
+}
+
+/********************************** whats new div *************************/
+
+.whats-new h2{
+  color: grey;
+  font-size: 3em;
+  margin-left: 1.4em;
+  font-family: 'Prata', serif;
+}
+.whatsnew-img li{
+  display: inline;
+}
+.whatsnew-img img{
+  margin: 10px 10px 10px 30px;
+  
+}
+.whatsnew-img img:hover{
+  transform: scale(0.9);
+  border-radius: 20px 20px 20px 20px;
+}
+
+/******************************* host div *********************************/
+
+.host img{
+  height: 500px;
+  width: 1950px;
+  margin: 120px 20px 20px 58px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+
+/******************** form nav *******************/
+.form-nav{
+  background-color: white;
+  height: 80px;
+  width: 2050px;
+  margin-top: 5em;
+  margin-left: 1em;
+  display: inline-flex;
+  background-image: url(images/formnav.png);
+  font-family: 'Prata', serif;
+  color: grey;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.form-nav .phone-no h2{
+  margin: 27px 20px 20px 100px;
+}
+.form-nav .phone-no h2:hover{
+  text-decoration: underline;
+}
+.form-nav .gmail h2{
+  margin: 27px 20px 20px 450px;
+}
+.form-nav .gmail h2:hover{
+  text-decoration: underline;
+}
+
+.contact-bar-signup {
+  display: inline-flex;
+  margin: 10px 10px 10px 450px;   
+}
+.contact-bar-signup h2{
+  margin: 20px 20px 0px 0px;
+}
+
+.contact-bar-signup .email{
+  width: 280px;
+  height: 30px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top:15px;
+}
+.email {
+  font-size: 20px;
+}
+.contact-bar-signup .submit{
+  margin: 7px 20px 20px 20px;
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 15px 15px 15px 15px;
+}
+.contact-bar-signup .submit:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+/********************************** footer wrapper div ******************************/
+
+
+.footer-wrapper{
+  display: inline-flex;
+  margin: 20px 20px 20px 20px;
+  font-family: 'Prata', serif;
+}
+
+.wrapperlist1 h1{
+  text-decoration: none;
+  font-family: 'Prata', serif;
+  color: #214252;
+  font-size: 1.5em;
+}
+.wrapperlist1 li{
+  font-size: 20px;
+  
+  
+}
+.wrapperlist1 li a{
+  text-decoration: none;
+  color: #214252;
+}
+
+
+.wrapperlist2 h1{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #214252;
+  margin-left: 3em;
+  font-size: 1.5em;
+}
+.wrapperlist2 li{
+  font-size: 20px;
+  margin-left: 4em;
+  
+}
+.wrapperlist2 li a{
+  text-decoration: none;
+  color: #214252;
+}
+
+
+.wrapperlist3 h1{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #214252;
+  margin-left: 3em;
+  font-size: 1.5em;
+}
+.wrapperlist3 li{
+  font-size: 20px;
+  margin-left: 4em;
+  
+}
+.wrapperlist3 li a{
+  text-decoration: none;
+  color: #214252;
+}
+
+
+.wrapperlist4 h1{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #214252;
+  margin-left: 3em;
+  font-size: 1.5em;
+}
+.wrapperlist4 li{
+  font-size: 20px;
+  margin-left: 4em;
+  
+}
+.wrapperlist4 li a{
+  text-decoration: none;
+  color: #214252;
+}
+

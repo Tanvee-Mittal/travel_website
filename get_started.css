@@ -1,0 +1,132 @@
+body{
+    /*background-color:#30475e;*/
+    background-image: url(images/getStartedBg1.jpg); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 100% 100%;
+}
+
+a{
+  text-decoration: none;
+  color: greenyellow;
+  size: 15px;
+}
+.login li {
+    display: inline;
+    width: 8%;
+    height: 10%;
+    /*margin-right: 0%;
+    margin-left: 0%;*/
+    
+  }
+  .login li {
+    float: left;
+    width: fit-content;
+    padding: 0px;
+  }
+  
+  .login a {
+    display: inline-block;
+    padding: 20px;
+    /*background-color: #222831;*/
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 51em;
+    margin-top: 20px;
+    border-radius: 15px 15px 15px 15px;
+    font-family:  'Dancing Script', Georgia, Times, serif;
+    
+  }
+
+
+.login a:hover{
+  /*background-color:#14274e;*/
+ /* box-shadow: 0 5px 14px rgba(0,0,0,0.15);*/
+  transition: box-shadow 0.3s ease-in-out;
+ /* box-shadow: 0 5px 15px rgba(0,0,0,0.3);*/
+  box-shadow: 0 5px 5px rgba(145, 139, 139, 0.3);
+ /* opacity: 89;*/
+  transform: scale(1.1)
+}
+
+/*.signup{
+  text-align: end;
+}
+
+.signup a{
+  text-align: end;
+  border-style: none;
+  border-radius: 15px 15px 15px 15px;
+  font-family:'Dancing Script', Georgia, Times, serif;
+  font-size: 1.3em;
+  margin-left:40em;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px ;
+ /* margin-top: 2.3em;
+  
+}
+
+.signup a:hover{
+  transform: scale(1.1)
+}
+
+/**{
+  margin:10;
+  padding: 10;
+  box-sizing: border-box;
+  border-color: black;
+}*/
+
+#useraccount{
+    left: 50%;
+    top: 50%;
+    margin-left: -10%;
+    margin-right: 12%;
+    position: absolute;
+    margin-top: -20%;
+  
+  }
+  
+  form{
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 40px;
+    color:white;
+    position: relative;
+    
+  }
+
+  input, label{
+    width: 400px;  
+    margin: 5px; 
+    border: 2px;
+    border-radius: 10px;
+    outline: black;
+    padding: 10px;
+    font-family: 'Sniglet', cursive;
+    font-size: 20px;
+    align-self: center;
+    overflow: hidden; /* Hide scrollbars */
+    
+  
+  }
+  
+  input[type="submit"]{
+    text-decoration-color: #4b778d;
+    width: 200px;
+    margin-left:25%;
+    margin-top: 45px;
+    background-color: #ffc996;
+  }
+  
+  input[type="submit"]:hover{
+    background-color: #ffc996;
+    transform: scale(0.9);
+
+  }
+  

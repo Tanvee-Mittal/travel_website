@@ -1,0 +1,70 @@
+body{
+    /*background-color:#30475e;*/
+    background-image: url(images/about.jpg); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 100% 100%;
+}
+
+
+li {
+    display: inline;
+    width: 8%;
+    height: 10%;
+    /*margin-right: 0%;
+    margin-left: 0%;*/
+    
+  }
+  li {
+    float: left;
+    width: fit-content;
+    padding: 0px;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 50px;
+    /*background-color: #222831;*/
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-left: 41em;
+    font-family:  'Dancing Script', Georgia, Times, serif;
+    
+  }
+
+
+a:hover{
+  /*background-color:#14274e;*/
+  box-shadow: 0 5px 14px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  opacity: 89;
+  transform: scale(0.8)
+}
+
+.signup{
+  text-align: end;
+}
+
+.signup a{
+  text-align: end;
+  border-style: none;
+  border-radius: 15px 15px 15px 15px;
+  font-family:'Dancing Script', Georgia, Times, serif;
+  font-size: 1.3em;
+  margin-left:40em;
+  font-style: italic;
+  font-weight: bold;
+  padding:50px ;
+ /* margin-top: 2.3em;*/
+  
+}
+
+.signup a:hover{
+  transform: scale(1.1)
+}

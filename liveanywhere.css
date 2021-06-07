@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+/****************************** DIV 1 *************************/
+.div1 {
+    background-image: url(images/liveanywhere-main.png);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 100% 100%;
+    height: 1150px;
+    width: 2050px;
+  
+}
+
+.div1 li {
+    display: inline;
+    width: 8%;
+    height: 10%;
+    /*margin-right: 0%;
+    margin-left: 0%;*/
+    
+  }
+  .div1 li {
+    float: left;
+    width: fit-content;
+    padding: 0px;
+  }
+  
+  .div1 a {
+    display: inline-block;
+    padding: 50px;
+    /*background-color: #222831;*/
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-left: 41em;
+    font-family:  'Dancing Script', Georgia, Times, serif;
+    
+  }
+
+  .div1 a:hover{
+  /*background-color:#14274e;*/
+  box-shadow: 0 5px 14px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  opacity: 89;
+  transform: scale(0.8)
+}
+/**************************** headong only div *************************/
+.heading-only h1{
+    color: gray;
+    font-size: 3.5em;
+    margin: 30px 30px 30px 700px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+/**************************** Hotel-list div *************************/
+.hotel-list h1{
+    color: gray;
+    font-size: 3em;
+    margin: 30px 20px 20px 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hotel-list li{
+    display: inline;
+}
+.hotel-image img{
+    height: 300px;
+    width: 300px;
+    margin: 30px 10px 10px 70px;
+}
+
+
+.hotel-buttons button{
+    height: 50px;
+    width: 300px;
+    margin: -35px 10px 10px 70px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 1.4em;
+    background-color: #f1935c;
+}
+.hotel-buttons button:hover{
+    transform: scale(0.9);
+}
