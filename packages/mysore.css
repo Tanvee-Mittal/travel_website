@@ -1,0 +1,58 @@
+/****************************** DIV 1 *************************/
+.div1 {
+    background-image: url(pack-images/pack-mysore.png);
+    height: 1150px;
+    width: 2085px;
+  
+}
+
+.div1 li {
+    display: inline;
+    width: 8%;
+    height: 10%;
+    /*margin-right: 0%;
+    margin-left: 0%;*/
+    
+  }
+  .div1 li {
+    float: left;
+    width: fit-content;
+    padding: 0px;
+  }
+  
+  .div1 a {
+    display: inline-block;
+    padding: 50px;
+    /*background-color: #222831;*/
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-left: 41em;
+    font-family:  'Dancing Script', Georgia, Times, serif;
+    
+  }
+
+  .div1 a:hover{
+  /*background-color:#14274e;*/
+  box-shadow: 0 5px 14px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  opacity: 89;
+  transform: scale(0.8)
+}
+
+/****************************** DIV 2 *************************/
+.div2 li{
+    display: inline-flex;
+    margin: 50px 20px 20px 70px;
+}
+.description img{
+    height: 500px;
+    width: 1000px;
+}
+.book-now-class img{
+    height: 400px;
+    width: 700px;
+}

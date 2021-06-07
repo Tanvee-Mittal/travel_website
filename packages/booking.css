@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body{
+    background-image: url(pack-images/solo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.div1 a{
+    display: inline-flex;
+    margin: 50px 0px 0px 10px;
+   color: beige;
+   text-decoration: none;
+   font-size: 2em;
+   margin: 40px 20px 20px 30px;
+}
+.div1 a:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+}
+
+.head-nav img{
+    width: 1800px;
+    height: 90px;
+    margin: 20px 20px 20px 80px;
+}
+.form{
+    height: 500px;
+    width: 800px;
+    margin: 250px 50px 50px 800px;
+    padding: 20px;
+    
+   
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Prata', serif;
+    color: beige;
+}
+input,select{
+    width: 400px;
+    height: 40px;
+    margin: 5px 5px 5px 5px;
+    display:block;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 25px;
+    background-color: transparent;
+    color: honeydew;
+}
+
+select{
+    width:400px;
+    height: 40px;
+    color: black;
+    background-color: aliceblue;
+}
+input[type="submit"]{
+height: 40px;
+width: 100px;
+margin: 40px 20px 20px 140px;
+
+background-color: green;
+}
+input[type="submit"]:hover{
+    transform: scale(0.9);
+}
